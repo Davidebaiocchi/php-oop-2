@@ -10,7 +10,7 @@ class Hp2 extends HarryPotter {
 
     public function setPrice() {
         if($this->price = 15) {
-            $this->price = 5;
+            $this->price = 7 . '$' ;
         }
     }
 }
