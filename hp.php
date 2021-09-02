@@ -11,5 +11,5 @@ class HarryPotter {
                      'Vernon Dursley' => 'Richard Griffiths',
                      'Severus Piton' => 'Alan Rickman',
                 ];
-    public $price = '15$';
+    public $price = 15;
 }

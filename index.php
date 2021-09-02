@@ -53,6 +53,7 @@ require_once __DIR__ . '/hp7b.php';
                 <h2 class='title'> <?php echo $hp2->title ?> </h2>
                 <p> <?php echo $hp2->genre ?> / <?php echo $hp2->date_drop ?> </p>
                 <p class="trama"> <?php echo $hp2->trama ?> </p>
+                <p class="price"> <?php echo $hp2->setPrice() ?> </p>
                 <p class="price"> <?php echo $hp2->price ?> </p>
                 <p class="trama"> <?php foreach ( $hp2->cast as $key => $value ) {
                             echo $key ." - ".$value . '<br>';

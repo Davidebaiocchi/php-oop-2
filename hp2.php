@@ -9,8 +9,8 @@ class Hp2 extends HarryPotter {
     public $img = 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS89EyAC-sy1SddiCkTT65slUCStYueMEtFnzjyKK1i8-d3tumI';
 
     public function setPrice() {
-        if($this->price = '15$') {
-            $this->price = '5$';
+        if($this->price = 15) {
+            $this->price = 5;
         }
     }
 }
