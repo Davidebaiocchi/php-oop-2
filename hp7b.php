@@ -3,8 +3,9 @@
 require_once __DIR__ . '/hp.php';
 
 class Hp7b extends HarryPotter {
-    public $trama;
+    public $title = 'Harry Potter e I doni della morte Part2';
+    public $trama = 'Harry, Ron e Hermione organizzano un furto alla Gringott, dove è nascosto uno degli Horcrux rimasti. Nello scontro con Voldemort potrebbe rivelarsi necessario un sacrificio.';
     public $date_drop = '2011';
     public $price = '10$';
-    public $img = 'https://static.wikia.nocookie.net/harrypotter/images/a/a3/Harry_Potter_e_i_Doni_della_Morte_Parte_2_poster.jpg/revision/latest?cb=20120520124312&path-prefix=it';
+    public $img = 'https://www.warnerbros.it/sites/default/files/HP7B_MOVIE_V_DD_KA_TT_1400x2100_300pi_IT.jpg';
 }
