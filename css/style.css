@@ -4,8 +4,17 @@
     margin: 0;
 }
 
+/* header */
+
+
+/* body */
 body {
-    padding-top: 30px;
+    background-color: rgba(46, 46, 46, 0.137);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 img {
@@ -15,11 +24,12 @@ img {
 
 h1 {
     text-align: center;
-    margin-bottom: 10px;
+    margin: 20px;
+    font-size: 40px;
 }
 
 .card {
-    margin-left: 10px;
+    margin-left: 30px;
     height: 300px;
     display: flex;
     padding: 10px;
@@ -58,4 +68,10 @@ h2 {
 
 .price:hover {
     color: blue;
+}
+
+img:hover {
+    scale: 1.2;
+    cursor: pointer;
+    border: 3px solid yellow;
 }
